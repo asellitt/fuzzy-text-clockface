@@ -1,0 +1,21 @@
+<svg class="background">
+  <text id="minutes" class="time"/>
+  <text id="join" class="time"/>
+  <text id="hours" class="time"/>
+
+  <text id="oClockHours" class="time"/>
+  <text id="oClock" class="time"/>
+  <text id="date" class="time"/>
+
+  <image id="heartRateIcon" href="heart_rate.png" class="icon"/>
+  <text id="heartRate" class="stat"/>
+
+  <image id="caloriesBurnedIcon" href="calories_burned.png" class="icon"/>
+  <text id="caloriesBurned" class="stat"/>
+
+  <image id="stepsIcon" href="steps.png" class="icon"/>
+  <text id="steps" class="stat"/>
+
+  <image id="batteryIcon" href="battery_0.png" class="icon"/>
+  <text id="battery" class="stat"/>
+</svg>

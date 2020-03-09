@@ -1,0 +1,102 @@
+.background {
+  viewport-fill: black;
+}
+
+.time {
+  fill: #dedede;
+  font-family: System-Bold;
+  font-size: 64;
+  text-length: 15;
+  text-anchor: middle;
+  x: 50%;
+}
+
+#minutes {
+  y: 20%;
+}
+
+#join {
+  font-family: System-Light;
+  y: 40%;
+}
+
+#hours {
+  y: 60%;
+}
+
+#oClockHours {
+  y: 40%;
+}
+
+#oClock {
+  y: 60%;
+}
+
+#date {
+  font-family: System-Light;
+  font-size: 26;
+  y: 97%;
+  text-length: 25;
+}
+
+.icon {
+  height: 24;
+}
+
+.stat {
+  font-family: System-Regular;
+  font-size: 32;
+  text-anchor: start;
+}
+
+#heartRateIcon {
+  x: 5%;
+  y: 65%;
+  width: 27;
+  fill: fb-magenta;
+}
+
+#heartRate {
+  x: 5%+32;
+  y: 65%+24;
+  fill: fb-magenta;
+}
+
+#caloriesBurnedIcon {
+  x: 5+5%;
+  y: 77%;
+  width: 16;
+  fill: fb-peach;
+}
+
+#caloriesBurned {
+  x: 5%+32;
+  y: 77%+24;
+  fill: fb-peach;
+}
+
+#stepsIcon {
+  x: 60%;
+  y: 65%;
+  width: 21;
+  fill: fb-cyan;
+}
+
+#steps {
+  x: 60%+32;
+  y: 65%+24;
+  fill: fb-cyan;
+}
+
+#batteryIcon {
+  x: 60%+4;
+  y: 77%;
+  width: 13;
+  fill: fb-green;
+}
+
+#battery {
+  x: 60%+32;
+  y: 77%+24;
+  fill: fb-green;
+}

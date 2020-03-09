@@ -1,0 +1,28 @@
+{
+  "fitbit": {
+    "appUUID": "a11e6f32-a9aa-4632-9f8c-242c37a60015",
+    "appType": "clockface",
+    "appDisplayName": "Fuzzy Text Clockface",
+    "iconFile": "resources/icon.png",
+    "wipeColor": "",
+    "requestedPermissions": [
+      "access_heart_rate",
+      "access_activity"
+    ],
+    "buildTargets": [
+      "higgs",
+      "meson",
+      "gemini",
+      "mira"
+    ],
+    "i18n": {
+      "en": {
+        "name": "Fuzzy Text Clockface"
+      }
+    },
+    "defaultLanguage": "en-US"
+  },
+  "devDependencies": {
+    "@fitbit/sdk": "~4.1.0"
+  }
+}
