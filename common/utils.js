@@ -56,7 +56,7 @@ export function minutesToWord(minutes) {
 
 export function hourToWord(hours, minutes) {
   const hour = hours % 12 || 12
-  if(minutes > 30) return hourWords[hour % hourWords.length]
+  if(minutes > 32) return hourWords[hour % hourWords.length]
   return hourWords[hour - 1 % hourWords.length]
 }
 
