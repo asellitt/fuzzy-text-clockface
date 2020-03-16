@@ -47,6 +47,7 @@
   font-family: System-Regular;
   font-size: 32;
   text-anchor: start;
+  text-length: 6;
 }
 
 #heartRateIcon {
