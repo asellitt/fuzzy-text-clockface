@@ -1,0 +1,1 @@
+cask "fitbit-os-simulator"
